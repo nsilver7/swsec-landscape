@@ -2,7 +2,7 @@
 
 A comprehensive, community-maintained reference of frameworks, standards, regulations, and tools for software supply chain security.
 
-**[View the live site →](https://OWNER.github.io/supply-chain-security-frameworks/)**
+**[View the live site →](https://nsilver7.github.io/swsec-landscape/)**
 
 ## What's Included
 
