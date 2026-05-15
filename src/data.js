@@ -171,6 +171,42 @@ const data = [
     notes: "Tiered badge system. Signals project maturity to consumers.",
     url: "https://www.bestpractices.dev/",
   },
+  {
+    category: "OpenSSF",
+    name: "SCM Best Practices",
+    fullName: "Source Code Management Platform Configuration Best Practices",
+    type: "Guidance",
+    audience: "Platform / DevOps teams",
+    focus: "Hardening guide for GitHub/GitLab: auth, access control, branch/tag protection, CI/CD workflow permissions, runner groups, org-level policies",
+    status: "Active (2023+)",
+    notes:
+      "Directly relevant to TeamPCP-style attacks (tag rulesets, pull_request_target restrictions, workflow token permissions). Enforcement tooling: Scorecard, Allstar, Legitify.",
+    url: "https://best.openssf.org/SCM-BestPractices/",
+  },
+  {
+    category: "OpenSSF",
+    name: "Allstar",
+    fullName: "OpenSSF Allstar",
+    type: "Tool",
+    audience: "Platform / DevOps teams",
+    focus: "Continuous enforcement of GitHub org/repo security policies: branch protection, SECURITY.md, binary artifacts, CI checks",
+    status: "Active",
+    notes:
+      "OpenSSF project. GitHub-only. Detects a subset of SCM Best Practices policies. Runs as a GitHub App at the org level.",
+    url: "https://github.com/ossf/allstar",
+  },
+  {
+    category: "OpenSSF",
+    name: "Legitify",
+    fullName: "Legit Security Legitify",
+    type: "Tool",
+    audience: "Platform / DevOps teams",
+    focus: "SCM misconfiguration scanner for GitHub and GitLab: org, repo, runner, Actions, and member policy checks",
+    status: "Active (open source)",
+    notes:
+      "By Legit Security. Covers all SCM Best Practices policies. Supports GitHub Cloud/Enterprise and GitLab Cloud/Server. CLI and CI/CD integration.",
+    url: "https://github.com/Legit-Labs/legitify",
+  },
 
   // ==========================================================================
   // OWASP
