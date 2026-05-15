@@ -51,6 +51,7 @@ const audienceColors = {
   "AI system providers": { bg: "#3d2c5e", text: "#c8b6ff" },
   "Legal / Compliance": { bg: "#2d3a4a", text: "#a2c4e0" },
   "Security leadership": { bg: "#2d3a4a", text: "#a2c4e0" },
+  "Platform / DevOps teams": { bg: "#2a3f2a", text: "#8fbc8f" },	
 };
 
 // ---------------------------------------------------------------------------
