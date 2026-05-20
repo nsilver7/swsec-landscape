@@ -75,6 +75,3 @@ To use a custom domain instead of `<user>.github.io/<repo>`:
    ```
 4. Push to `main` — GitHub will provision a TLS certificate automatically.
 
-## License
-
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — share and adapt with attribution.
